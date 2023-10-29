@@ -13,16 +13,16 @@ const Navbar = () => {
         }}
       >
         <div style={{ flex: "1", textDecoration:'none' }}>
-          <a style={{  textDecoration:'none' }} href="/">Home</a>
+          <a style={{  textDecoration:'none' }} href="/" key={""}>Home</a>
         </div>
         <div style={{ flex: "1" }}>
-          <a style={{  textDecoration:'none' }} href="About">About Us</a>
+          <a style={{  textDecoration:'none' }} href="About" key={"#About"}>About Us</a>
         </div>
         <div style={{ flex: "1" }}>
-          <a style={{  textDecoration:'none' }} href="Services">Services</a>
+          <a style={{  textDecoration:'none' }} key={'Services'} href="#Services">Services</a>
         </div>
         <div style={{ flex: "1" }}>
-          <a style={{  textDecoration:'none' }} href="Testimonials">Testimonials</a>
+          <a style={{  textDecoration:'none' }} key={'Testimonials'} href="#Testimonials" >Testimonials</a>
         </div>
       </ul>
     </nav>

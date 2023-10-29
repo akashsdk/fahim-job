@@ -4,8 +4,8 @@ import "./style.css";
 
 const AboutUs = () => {
   return (
-    <CSSTransition in={true} appear={true} timeout={1000} classNames="fade">
-      <section id="about">
+    <CSSTransition  id="About"  in={true} appear={true} timeout={1000} classNames="fade">
+      <section>
         <h2>About Us</h2>
         <p>Placeholder text about your company.</p>
         {/* Add images and more content as needed */}
